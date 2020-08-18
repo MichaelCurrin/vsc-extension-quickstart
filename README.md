@@ -1,7 +1,13 @@
 # VS Code Extension Quickstart
 > Boilerplate for a new VS Code extension using TypeScript and NPM
 
-This is a basic extension generated using the yeoman package, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vsc-extension-quickstart)](https://github.com/MichaelCurrin/vsc-extension-quickstart/tags/?include_prereleases&sort=semver)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vsc-extension-quickstart/generate)
+
+
+This project covers the outline of basic VS Code extension and was generated using the `yeoman` NPM package, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
 
 For more info on developing extensions in VS Code, see the [Extension Overview](https://code.visualstudio.com/api) section of the docs.
 
