@@ -1,7 +1,10 @@
 # VS Code Extension Quickstart
 > Boilerplate for a new VS Code extension using TypeScript and NPM
 
-This is the README for your extension "quickstart". After writing up a brief description, we recommend including the following sections.
+This is a basic extension generated using the yeoman package, as covered below.
+
+This project is just a hello world application and won't be modified much, so it can mainly serve as a reference for existing projects. Or as a template for new projects (with the difference that values have to be replaced manually rather than setup using a CLI).
+
 
 ## How to generate a quickstart
 
@@ -33,13 +36,40 @@ e.g.
 # ? Initialize a git repository? Yes
 # ? Which package manager to use? npm
 ```
-That will also run an install for your.
+
+That will also install packages for you.
 
 Then finally open the new project.
 
 ```sh
 $ code helloworld
 ```
+
+For setting up this existing repo, see below.
+
+## Installation
+
+Install Node.js.
+
+Clone this repo.
+
+Run install (about 180 dependencies altogether)
+
+```sh
+$ npm install
+```
+
+## Usage
+
+Use the Debug tab in VS Code to _Run Extension_.
+
+See available script commands in [package.json] by running this:
+
+```sh
+$ npm run
+...
+```
+
 
 ## Features
 
@@ -50,6 +80,7 @@ For example if there is an image subfolder under your extension project workspac
 \!\[feature X\]\(images/feature-x.png\)
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+
 
 ## Requirements
 
