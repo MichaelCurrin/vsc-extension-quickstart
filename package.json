@@ -2,7 +2,7 @@
 	"name": "vsc-extension-quickstart",
 	"displayName": "VS Code Extension Quickstart",
 	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.48.0"
 	},
