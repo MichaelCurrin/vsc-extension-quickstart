@@ -15,10 +15,11 @@ This project is just a hello world application and won't be modified much, so it
 
 
 ## Using the extension
+> How to build, setup and use a dev version of the extension
 
-Follow the steps in [Setup the extension](#setup-the-extension).
+Follow [Installation](#installation) steps to get your environment setup.
 
-Open VS Code.
+Follow [Setup the extension](#setup-the-extension) to get VS Code running with the extension installed.
 
 Open the command prompt - (<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd> on macOS).
 
