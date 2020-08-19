@@ -21,17 +21,16 @@ Follow [Installation](#installation) steps to get your environment setup.
 
 Follow [Setup the extension](#setup-the-extension) to get VS Code running with the extension installed.
 
-Open the command prompt - (<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd> on macOS).
+Activate the extension.
 
-Search for "Hello World".
+1. Open the command palette - click _View_ from the menu then _Command palette..._ or press <kbd>SHIFT</kbd>+<kbd>CMD</kbd>+<kbd>P</kbd> on macOS.
+1. Search for "Hello World".
+    ![sample 1](/sample-1.png)
+1. Click it or press <kbd>Enter</kbd> after you select it.
+1. You'll see an info box appear in the bottom right.
+    ![sample 2](/sample-2.png)
 
-![sample 1](/sample-1.png)
-
-Click or press enter when you find it.
-
-You'll see an info box appear in the bottom right.
-
-![sample 2](/sample-2.png)
+That's all this extension does.
 
 
 ## How to generate a new extension from scratch
