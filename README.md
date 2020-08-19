@@ -55,92 +55,85 @@ $ code helloworld
 
 For setting up this existing repo, see below.
 
+
 ## Installation
 
-Install Node.js.
+Install [Node.js](https://gist.github.com/MichaelCurrin/aa1fc56419a355972b96bce23f3bccba).
 
 Clone this repo.
 
-Run install (about 180 dependencies altogether)
+```sh
+$ git clone git@github.com:MichaelCurrin/vsc-extension-quickstart.git
+```
+
+Run install.
 
 ```sh
 $ npm install
 ```
 
+### What is the node modules footprint?
+
+There are 11 dev dependencies. Four of those are just `@types/...` and there are no prod dependencies.
+
+You'll end up with about 180 dependencies altogether.
+
+
 ## Usage
 
-Use the Debug tab in VS Code to _Run Extension_.
+
+### Run linter
+
+```sh
+$ npm run lint
+```
+
+### Run tests
+
+This will also run the TypeScript compile step and the lint step.
+
+```sh
+$ npm test
+```
+
+### Commands
 
 See available script commands in [package.json] by running this:
 
 ```sh
 $ npm run
-...
+```
+```
+Lifecycle scripts included in vsc-extension-quickstart:
+  pretest
+    npm run compile && npm run lint
+  test
+    node ./out/test/runTest.js
+
+available via `npm run-script`:
+  vscode:prepublish
+    npm run compile
+  compile
+    tsc -p ./
+  lint
+    eslint src --ext ts
+  watch
+    tsc -watch -p ./
 ```
 
+### Run the extension
 
-## Features
+Use the _Debug_ tab in VS Code and click _Run Extension_. That will run the extension in a sandboxed environment in a new window and then remove it when closing the window.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+This will run the watch command which compiles the app and then watches the directory for changes.
 
-For example if there is an image subfolder under your extension project workspace:
+## Deployment
 
-\!\[feature X\]\(images/feature-x.png\)
+You can package your extension to be installed globally and shared with others.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+You can also publish the extension to VS Code marketplace.
 
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+These steps are not covered in this project.
 
 
 ## License
