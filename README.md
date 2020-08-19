@@ -7,14 +7,22 @@
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vsc-extension-quickstart/generate)
 
 
+## About
+
 This project covers the outline of basic VS Code extension and was generated using the `yeoman` NPM package, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
+
+This project is just a simple "Hello world" application - see [How to run the extension](#how-to-run-the-extension) to try it out locally.
+
+This project will not be developed further. It will mainly serve as a reference for existing projects. Or possibly as a template for new projects (with the difference that values have to be replaced manually rather than setup using a CLI).
+
+### Resources
 
 For more info on developing extensions in VS Code, see the [Extension Overview](https://code.visualstudio.com/api) section of the docs.
 
-This project is just a hello world application and won't be modified much, so it can mainly serve as a reference for existing projects. Or as a template for new projects (with the difference that values have to be replaced manually rather than setup using a CLI).
+For sample extensions provided by VS Code, see the [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) repo.
 
 
-## Using the extension
+## How to run the extension
 > How to build, setup and use a dev version of the extension
 
 Follow [Installation](#installation) steps to get your environment setup.
