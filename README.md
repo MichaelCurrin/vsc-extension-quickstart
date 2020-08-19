@@ -14,6 +14,25 @@ For more info on developing extensions in VS Code, see the [Extension Overview](
 This project is just a hello world application and won't be modified much, so it can mainly serve as a reference for existing projects. Or as a template for new projects (with the difference that values have to be replaced manually rather than setup using a CLI).
 
 
+## Using the extension
+
+Follow the steps in [Setup the extension](#setup-the-extension).
+
+Open VS Code.
+
+Open the command prompt - (<kbd>CMD</kbd>+<kbd>SHIFT</kbd>+<kbd>P</kbd> on macOS).
+
+Search for "Hello World".
+
+![sample 1](/sample-1.png)
+
+Click or press enter when you find it.
+
+You'll see an info box appear in the bottom right.
+
+![sample 2](/sample-2.png)
+
+
 ## How to generate a new extension from scratch
 
 These were the steps followed to create this project. If you don't want to use this repo directly, you can create your own from scratch.
@@ -121,7 +140,7 @@ available via `npm run-script`:
     tsc -watch -p ./
 ```
 
-### Run the extension
+### Setup the extension
 
 Use the _Debug_ tab in VS Code and click _Run Extension_. That will run the extension in a sandboxed environment in a new window and then remove it when closing the window.
 
