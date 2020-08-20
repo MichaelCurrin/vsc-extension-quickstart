@@ -7,6 +7,14 @@
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vsc-extension-quickstart/generate)
 
 
+## Preview
+
+- Run from command-prompt
+    ![sample 1](/sample-1.png)
+- Pop-up notification
+    ![sample 2](/sample-2.png)
+
+
 ## About
 
 This project covers the outline of basic VS Code extension that can be installed and run. This template was generated using the `yeoman` NPM package and the "default" option, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
@@ -41,6 +49,45 @@ Activate the extension.
 That's all this extension does.
 
 
+## How does the extension work?
+
+The extension must be compiled from TypeScript to JavaScript and installed in VS Code. 
+
+Here is a high-level setup of how this particular the extension works:
+
+### Command-prompt
+
+The **command** will be added to the command-prompt section as it is defined under `"contributes"` in [package.json][]. You could add other triggers like buttons or drop-list menu items.
+
+### Activate
+
+To start the extension, the [extension.ts][] script needs to have an `activate` and `deactivate` function. For this simple project, this is only the script in `src`, besides the `test` scripts.
+
+Note that the `activate` function is only called **once** to setup the extension. This is usualy on IDE startup, but some extensions like the Python one only activate when you open a `.py` file.
+
+### Register commands
+
+One or more **commands** must be specified in [extension.ts][].
+
+For example:
+
+```javascript
+vscode.commands.registerCommand('quickstart.helloWorld', () => {
+    // ...
+});
+```
+
+These will run whenever they are triggered.
+
+### Actions
+
+The Hello World **notification event** will be pushed using this line in [extension.ts][].
+
+```javascript
+vscode.window.showInformationMessage('Hello World from Quickstart!');
+```
+
+
 ## How to generate a new extension from scratch
 
 These were the steps followed to create this project. If you don't want to use this repo directly, you can create your own from scratch.
@@ -57,7 +104,7 @@ $ cd repos
 $ npx yo code
 ```
 
-Enter answers in the REPL.
+Enter answers in the REPL
 
 e.g.
 
@@ -125,7 +172,7 @@ $ npm test
 
 ### Commands
 
-See available script commands in [package.json] by running this:
+See available script commands in [package.json][] by running this:
 
 ```sh
 $ npm run
@@ -154,6 +201,7 @@ Use the _Debug_ tab in VS Code and click _Run Extension_. That will run the exte
 
 This will run the watch command which compiles the app and then watches the directory for changes.
 
+
 ## Deployment
 
 You can package your extension to be installed globally and shared with others.
@@ -165,4 +213,12 @@ These steps are not covered in this project.
 
 ## License
 
-Released under [MIT](/LICENSE).
+Released under [MIT](/LICENSE). 
+
+The base of this project comes from the `yo code` command.
+
+Some documentation and minor code tweaks are my own.
+
+
+[extension.ts]: /src/extension.ts
+[package.json]: /package.json
