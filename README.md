@@ -1,5 +1,5 @@
 # VS Code Extension Quickstart
-> Boilerplate for a new VS Code extension using TypeScript and NPM
+> Boilerplate for a "Hello World" VS Code extension - using the default setup (TS and NPM)
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vsc-extension-quickstart)](https://github.com/MichaelCurrin/vsc-extension-quickstart/tags/?include_prereleases&sort=semver)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
