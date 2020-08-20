@@ -1,5 +1,5 @@
 # VS Code Extension Quickstart
-> Boilerplate for a "Hello World" VS Code extension - using the default setup (TS and NPM)
+> Boilerplate for a basic VS Code extension - using TypeScript and NPM
 
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/vsc-extension-quickstart)](https://github.com/MichaelCurrin/vsc-extension-quickstart/tags/?include_prereleases&sort=semver)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue)](#license)
@@ -9,7 +9,7 @@
 
 ## About
 
-This project covers the outline of basic VS Code extension and was generated using the `yeoman` NPM package, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
+This project covers the outline of basic VS Code extension that can be installed and run. This template was generated using the `yeoman` NPM package and the "default" option, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
 
 This project is just a simple "Hello world" application - see [How to run the extension](#how-to-run-the-extension) to try it out locally.
 
