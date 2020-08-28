@@ -3,7 +3,7 @@
 
 ## Install
 
-If you haven't alreay, follow the [Installation](installation.md) steps to get your Node.js dependencies setup.
+If you haven't already, follow the [Installation](installation.md) steps to get your Node.js dependencies setup.
 
 
 ## Start the extension in debug mode
@@ -23,3 +23,5 @@ You can skip the lint and test steps beforehand if you aren't changing any code.
     ![sample 2](_media/sample-2.png)
 
 That's all this extension does.
+
+What next? Go through these [Resources](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/vscode-extensions/resources.html) to learn more about VS Code or get inspiration from sample projects and real extensions.
