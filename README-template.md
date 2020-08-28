@@ -1,5 +1,5 @@
 # README template
-Auto-generated suggested doc content that comes with the quickstart app. It is an outline and is not useful as is.
+> Auto-generated suggested doc content that comes with the quickstart app. It is an outline and is not useful as is
 
 ## Features
 
