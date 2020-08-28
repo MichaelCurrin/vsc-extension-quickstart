@@ -1,4 +1,5 @@
 # Welcome to your VS Code Extension
+> The welcome guide that comes with an auto-generated repo
 
 ## What's in the folder
 

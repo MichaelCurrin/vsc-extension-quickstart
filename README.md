@@ -9,9 +9,9 @@
 
 ## Preview
 
-- Run from command-prompt
+1. Run from the VSC command prompt
     ![sample 1](/sample-1.png)
-- Pop-up notification
+2. Pop-up notification
     ![sample 2](/sample-2.png)
 
 
@@ -26,6 +26,6 @@ Be sure to use the _Use this template_ button at the top if you want to create a
 
 Released under [MIT](/LICENSE).
 
-The base of this project comes from the `yo code` command.
+The base of this project comes from the `yo code` command. Very little code has been changed since then - mostly styling changes.
 
-All documentation other than the [README.template.md](README-template.md) file is my own. The tweaks so the code in this repo are very minimal.
+All documentation other than the [README.template.md](/README-template.md), [CHANGELOG.template.md](/CHANGELOG.template.md) and [welcome.md](welcome.md] files is my own.
