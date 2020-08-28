@@ -5,11 +5,15 @@ These were the steps followed to create this project. If you don't want to use t
 
 For more info, see the [Your First Extension][] doc page.
 
-You don't need to create a new directory. Start from your usually repos directory.
+## Pick a repo workspace
+
+You don't need to create a new directory. Start from your usual repos directory.
 
 ```sh
-$ cd repos
+$ cd ~/repos
 ```
+
+## Generate the extension
 
 ```sh
 $ npx yo code
@@ -30,10 +34,19 @@ Enter answers in the REPL - for example:
 
 That will also install packages for you.
 
-Then finally open the new project.
+## Open
+
+Open your new project in VS Code
 
 ```sh
 $ code helloworld
 ```
+
+## How to run it
+
+Now you can start the extension with the debugger in an isolated environment
+
+To do this, follow the steps in the [usage](usage.md) section of this quickstart guide. They will still apply.
+
 
 [Your First Extension]: https://code.visualstudio.com/api/get-started/your-first-extension
