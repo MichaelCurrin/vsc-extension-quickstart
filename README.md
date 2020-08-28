@@ -202,11 +202,11 @@ Use the _Debug_ tab in VS Code and click _Run Extension_. That will run the exte
 This will run the watch command which compiles the app and then watches the directory for changes.
 
 
-## Deployment
+## Deploy
 
 You can package your extension to be installed globally and shared with others.
 
-You can also publish the extension to VS Code marketplace.
+You can also publish the extension to the VS Code marketplace so it can be installed by searching it.
 
 These steps are not covered in this project.
 
