@@ -10,9 +10,9 @@
 ## Preview
 
 1. Run from the VSC command prompt
-    ![sample 1](/sample-1.png)
+    ![sample 1](/docs/_media/sample-1.png)
 2. Pop-up notification
-    ![sample 2](/sample-2.png)
+    ![sample 2](/docs/_media/sample-2.png)
 
 
 ## Documentation
