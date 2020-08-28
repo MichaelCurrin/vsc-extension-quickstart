@@ -1,4 +1,7 @@
-# VS Code Extensions Quickstart docs
+# VS Code Extension Quickstart docs
+
+[![VS Code Extension](https://img.shields.io/badge/VS_Code_Extension-blue.svg?logo=visual-studio-code)](https://code.visualstudio.com/)
+[![Made with TypeScript](https://img.shields.io/badge/TypeScript-3-blue.svg?logo=typescript)](https://typescriptlang.org)
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vsc-extension-quickstart/generate)
 
