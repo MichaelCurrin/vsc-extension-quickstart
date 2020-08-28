@@ -9,9 +9,9 @@ Use the extension:
 
 1. Open the command palette - click _View_ from the menu then _Command palette..._ or press <kbd>SHIFT</kbd>+<kbd>CMD</kbd>+<kbd>P</kbd> on macOS.
 1. Search for "Hello World".
-    ![sample 1](/sample-1.png)
+    ![sample 1](_media/sample-1.png)
 1. Click it or press <kbd>Enter</kbd> after you select it.
 1. You'll see an info box appear in the bottom right.
-    ![sample 2](/sample-2.png)
+    ![sample 2](_media/sample-2.png)
 
 That's all this extension does.
