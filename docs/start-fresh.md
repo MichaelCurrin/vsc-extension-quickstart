@@ -15,11 +15,15 @@ $ cd ~/repos
 
 ## Generate the extension
 
+Run this command to use NPX, which comes with NPM and will fetch and run a package without installing it. In this case we use yeoman (`yo`) and the template we request is for VS Code.
+
 ```sh
 $ npx yo code
 ```
 
-Enter answers in the REPL - for example:
+You'll then get promoted for input.
+
+Enter answers in the REPL - questions and answers for example:
 
 ```
 # ? What type of extension do you want to create? New Extension (TypeScript)
@@ -32,7 +36,7 @@ Enter answers in the REPL - for example:
 # ? Which package manager to use? npm
 ```
 
-That will also install packages for you.
+That will also install packages for you so you don't event have to run install.
 
 ## Open
 
