@@ -25,9 +25,9 @@ This project will not be developed further. It will mainly serve as a reference 
 
 ### Resources
 
-For more info on developing extensions in VS Code, see the [Extension Overview](https://code.visualstudio.com/api) section of the docs.
+For more info on developing extensions in VS Code, see the [Extension Overview][] section of the docs.
 
-For sample extensions provided by VS Code, see the [microsoft/vscode-extension-samples](https://github.com/microsoft/vscode-extension-samples) repo.
+For sample extensions provided by VS Code, see the [Microsoft/vscode-extension-samples] repo.
 
 
 ## How to run the extension
@@ -51,7 +51,7 @@ That's all this extension does.
 
 ## How does the extension work?
 
-The extension must be compiled from TypeScript to JavaScript and installed in VS Code. 
+The extension must be compiled from TypeScript to JavaScript and installed in VS Code.
 
 Here is a high-level setup of how this particular the extension works:
 
@@ -63,7 +63,7 @@ The **command** will be added to the command-prompt section as it is defined und
 
 To start the extension, the [extension.ts][] script needs to have an `activate` and `deactivate` function. For this simple project, this is only the script in `src`, besides the `test` scripts.
 
-Note that the `activate` function is only called **once** to setup the extension. This is usualy on IDE startup, but some extensions like the Python one only activate when you open a `.py` file.
+Note that the `activate` function is only called **once** to setup the extension. This is usually on IDE startup, but some extensions like the Python one only activate when you open a `.py` file.
 
 ### Register commands
 
@@ -90,9 +90,9 @@ vscode.window.showInformationMessage('Hello World from Quickstart!');
 
 ## How to generate a new extension from scratch
 
-These were the steps followed to create this project. If you don't want to use this repo directly, you can create your own from scratch.
+These were the steps followed to create this project. If you don't want to use this repo directly, you can create a new project using an official template.
 
-For more info, see the [Your First Extension](https://code.visualstudio.com/api/get-started/your-first-extension) doc page.
+For more info, see the [Your First Extension][] doc page.
 
 You don't need to create a new directory. Start from your usually repos directory.
 
@@ -104,9 +104,7 @@ $ cd repos
 $ npx yo code
 ```
 
-Enter answers in the REPL
-
-e.g.
+Enter answers in the REPL - for example:
 
 ```
 # ? What type of extension do you want to create? New Extension (TypeScript)
@@ -154,7 +152,6 @@ You'll end up with about 180 dependencies altogether.
 
 
 ## Usage
-
 
 ### Run linter
 
@@ -213,12 +210,15 @@ These steps are not covered in this project.
 
 ## License
 
-Released under [MIT](/LICENSE). 
+Released under [MIT](/LICENSE).
 
 The base of this project comes from the `yo code` command.
 
 Some documentation and minor code tweaks are my own.
 
+[Your First Extension]: https://code.visualstudio.com/api/get-started/your-first-extension
+[Extension Overview]: https://code.visualstudio.com/api
+[Microsoft/vscode-extension-samples]: https://github.com/Microsoft/vscode-extension-samples
 
 [extension.ts]: /src/extension.ts
 [package.json]: /package.json
