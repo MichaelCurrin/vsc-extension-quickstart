@@ -26,12 +26,12 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
+		"watch": "tsc -watch -p ./",
 		"compile": "tsc -p ./",
 		"lint": "eslint src --ext ts",
-		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
-		"test": "node ./out/test/runTest.js"
+		"test": "node ./out/test/runTest.js",
+		"vscode:prepublish": "npm run compile"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.48.0",
