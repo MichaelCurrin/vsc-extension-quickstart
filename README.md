@@ -21,6 +21,7 @@ View the [docs](/docs/README.md) to learn how to use this extension, how it work
 
 Be sure to use the _Use this template_ button at the top if you want to create a repo under your GitHub user start uses this repo as starting point.
 
+See also the [welcome](/welcome.md) doc which came with the auto-generated quickstart.
 
 ## License
 
