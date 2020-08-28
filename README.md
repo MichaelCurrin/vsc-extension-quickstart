@@ -30,4 +30,4 @@ Released under [MIT](/LICENSE).
 
 The base of this project comes from the `yo code` command. Very little code has been changed since then - mostly styling changes.
 
-All documentation other than the [README.template.md](/README-template.md), [CHANGELOG.template.md](/CHANGELOG.template.md) and [welcome.md](welcome.md] files is my own.
+All documentation other than the [README.template.md](/README-template.md), [CHANGELOG.template.md](/CHANGELOG.template.md) and [welcome.md](welcome.md) files is my own.
