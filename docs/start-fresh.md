@@ -42,11 +42,11 @@ Open your new project in VS Code
 $ code helloworld
 ```
 
-## How to run it
+## How to run the extension
 
-Now you can start the extension with the debugger in an isolated environment
+Now you can start the extension with the debugger in an isolated environment.
 
-To do this, follow the steps in the [usage](usage.md) section of this quickstart guide. They will still apply.
+To do this, follow the steps in the [usage](usage.md) section of this quickstart guide.
 
 
 [Your First Extension]: https://code.visualstudio.com/api/get-started/your-first-extension
