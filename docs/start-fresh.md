@@ -36,6 +36,4 @@ Then finally open the new project.
 $ code helloworld
 ```
 
-For setting up this existing repo, see below.
-
 [Your First Extension]: https://code.visualstudio.com/api/get-started/your-first-extension
