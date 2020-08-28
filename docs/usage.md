@@ -1,11 +1,17 @@
 # Usage
 > How to build, setup and use a dev version of this extension
 
-## Preparation
+## Install
 
-Follow [Installation](installation.md) steps to get your environment setup.
+If you haven't alreay, follow the [Installation](installation.md) steps to get your Node.js dependencies setup.
 
-Follow [Start the extension](development.md#start-the-extension) steps to get the extension running in a sandboxed environment. You can skip the lint and test steps beforehand if you aren't changing any code.
+
+## Start the extension in debug mode
+
+Follow [Start the extension](development.md#start-the-extension) steps to get the extension running in a sandboxed environment. 
+
+You can skip the lint and test steps beforehand if you aren't changing any code.
+
 
 ## Use the extension
 
