@@ -21,11 +21,11 @@
     ![sample 2](_media/sample-2.png)
 
 
-## What is the project?
+## What is this project?
 
-- An auto-generated Hello World VS Code extension
-- I added screenshots and thorough docs
-- It is available as a Template repo so you can easily get your own copy
+- It started as auto-generated simple _Hello World_ VS Code extension
+- I added preview screenshots, thorough docs and links to external resources
+- The repo is available as a _template_ so you can easily get your own copy
 
 
 ## About
