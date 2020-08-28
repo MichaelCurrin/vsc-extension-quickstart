@@ -45,13 +45,15 @@ available via `npm run-script`:
 ```
 
 
-## Start the the extension
+## Start the extension
 > Run temporarily in debug mode
 
 Open the _Debug_ tab in VS Code then click _Run Extension_.
 
-That will run the extension in a sandboxed environment in a new window and then remove it when closing the window.
+That will run the extension in a sandboxed environment in a new window - the extension is not installed in other windows and you won't be able to use the extension after you close the window.
 
-This will run the watch command which compiles the app and then watches the directory for changes.
+That will run the watch command which compiles the app and then watches the directory for changes.
+
+If you want to install the extension globally and so that is persists, see the [Deploy](deploy.md) doc.
 
 [package.json]: /package.json

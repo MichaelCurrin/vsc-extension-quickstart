@@ -1,21 +1,26 @@
-# VS Code Extensions docs
+# VS Code Extensions Quickstart docs
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vsc-extension-quickstart/generate)
 
 
+## Menu
+
+- [How it works](how-it-works.md)
+- [Installation](installation.md)
+- [Usage](usage.md)
+- [Deploy](deploy.md)
+- [Development](development.md)
+- [Start fresh](start-fresh.md)
 
 
 ## About
 
-This project covers the outline of basic VS Code extension that can be installed and run. This template was generated using the `yeoman` NPM package and the "default" option, as covered below in [How to generate a new extension from scratch](#how-to-generate-a-new-extension-from-scratch).
+This project covers the outline of a basic VS Code extension which can be installed and run locally.
 
-This project is just a simple "Hello world" application - see [How to run the extension](#how-to-run-the-extension) to try it out locally.
+This template project was generated using the `yeoman` NPM package and the "default" option, as covered in the [Start fresh](start-fresh.md) doc.
+
+This extension is just a simple "Hello world" application. To try it out locally, follow the [Install](installation.md) doc and then [Start the extension](development.md#start-the-extension) in sandboxed debug mode (it won't be installed globally).
 
 This project will not be developed further. It will mainly serve as a reference for existing projects. Or possibly as a template for new projects (with the difference that values have to be replaced manually rather than setup using a CLI).
 
-### Resources
-
-For more info on developing extensions in VS Code, see the [Extension Overview][] section of the docs.
-
-For sample extensions provided by VS Code, see the [Microsoft/vscode-extension-samples][] repo.
-
-[Microsoft/vscode-extension-samples]: https://github.com/Microsoft/vscode-extension-samples
-[Extension Overview]: https://code.visualstudio.com/api
+See [Resources][] in my Dev Cheatsheets for getting started with extensions or for references on how to export and publish.

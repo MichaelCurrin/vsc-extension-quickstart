@@ -17,7 +17,7 @@
 
 ## Documentation
 
-View the [docs](/docs/) to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop using this project.
+View the [docs](/docs/README.md) to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop.
 
 Be sure to use the _Use this template_ button at the top if you want to create a repo under your GitHub user start uses this repo as starting point.
 
