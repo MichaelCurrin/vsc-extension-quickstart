@@ -23,4 +23,6 @@ This extension is just a simple "Hello world" application. To try it out locally
 
 This project will not be developed further. It will mainly serve as a reference for existing projects. Or possibly as a template for new projects (with the difference that values have to be replaced manually rather than setup using a CLI).
 
-See [Resources][] in my Dev Cheatsheets for getting started with extensions or for references on how to export and publish.
+See the [Resources][] page on my Dev Cheatsheets site for links on getting started with extensions or for references on how to export and publish.
+
+[Resources]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/vscode-extensions/resources.html
