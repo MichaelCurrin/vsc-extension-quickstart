@@ -1,8 +1,9 @@
 {
 	"name": "vsc-extension-quickstart",
-	"displayName": "VS Code Extension Quickstart",
 	"version": "0.3.0",
+	"displayName": "VS Code Extension Quickstart",
 	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
+	"publisher": "MichaelCurrin",
 	"main": "out/extension.js",
 	"scripts": {
 		"watch": "tsc -watch -p .",
