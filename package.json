@@ -10,7 +10,7 @@
 		"compile": "tsc -p .",
 		"lint": "eslint src --ext ts",
 		"pretest": "npm run compile && npm run lint",
-		"test": "node ./out/test/runTest.js",
+		"test": "node out/test/runTest.js",
 		"vscode:prepublish": "npm run compile"
 	},
 	"engines": {
