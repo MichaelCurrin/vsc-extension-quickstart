@@ -21,7 +21,7 @@ $ npm test
 
 ## Commands
 
-See available script commands in [package.json][] by running this:
+See available script commands in [package.json](/package.json) by running this:
 
 ```sh
 $ npm run
@@ -55,5 +55,3 @@ That will run the extension in a sandboxed environment in a new window - the ext
 That will run the watch command which compiles the app and then watches the directory for changes.
 
 If you want to install the extension globally and so that is persists, see the [Deploy](deploy.md) doc.
-
-[package.json]: /package.json
