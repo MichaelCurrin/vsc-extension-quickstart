@@ -38,6 +38,7 @@ Enter answers in the REPL - questions and answers for example:
 
 That will also install packages for you so you don't event have to run install.
 
+
 ## Open
 
 Open your new project in VS Code
@@ -45,6 +46,7 @@ Open your new project in VS Code
 ```sh
 $ code helloworld
 ```
+
 
 ## How to run the extension
 
