@@ -5,8 +5,8 @@
 	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
 	"main": "./out/extension.js",
 	"scripts": {
-		"watch": "tsc -watch -p ./",
-		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p .",
+		"compile": "tsc -p .",
 		"lint": "eslint src --ext ts",
 		"pretest": "npm run compile && npm run lint",
 		"test": "node ./out/test/runTest.js",
