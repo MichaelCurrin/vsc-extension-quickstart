@@ -26,7 +26,7 @@
 		"vscode-test": "^1.4.1"
 	},
 	"engines": {
-		"vscode": "^1.48.0"
+		"vscode": "^1.52.0"
 	},
 	"categories": [
 		"Other"
