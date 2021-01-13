@@ -7,8 +7,9 @@
 [![VS Code Extension](https://img.shields.io/badge/VS_Code_Extension-blue.svg?logo=visual-studio-code)](https://code.visualstudio.com/)
 [![Made with TypeScript](https://img.shields.io/badge/TypeScript-3-blue.svg?logo=typescript)](https://typescriptlang.org)
 
+
 <div align="center">
-    
+
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/vsc-extension-quickstart/generate)
 
 </div>
@@ -16,15 +17,15 @@
 
 ## Preview
 
-1. Run from the VSC command prompt
+1. Run from the VS Code command prompt:
     ![sample 1](/docs/_media/sample-1.png)
-2. Pop-up notification
+2. Pop-up notification:
     ![sample 2](/docs/_media/sample-2.png)
 
 
 ## Documentation
 
-View the [docs](/docs/README.md) to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop.
+View the [docs](/docs/) to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop.
 
 Be sure to use the _Use this template_ button at the top if you want to create a repo under your GitHub user start uses this repo as starting point.
 
