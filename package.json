@@ -1,30 +1,9 @@
 {
 	"name": "vsc-extension-quickstart",
 	"displayName": "VS Code Extension Quickstart",
-	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
 	"version": "0.3.0",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MichaelCurrin/vsc-extension-quickstart"
-	},
-	"engines": {
-		"vscode": "^1.48.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onCommand:quickstart.helloWorld"
-	],
+	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "quickstart.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
 	"scripts": {
 		"watch": "tsc -watch -p ./",
 		"compile": "tsc -p ./",
@@ -45,5 +24,26 @@
 		"mocha": "^8.2.1",
 		"typescript": "^3.8.3",
 		"vscode-test": "^1.4.1"
+	},
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:quickstart.helloWorld"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "quickstart.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MichaelCurrin/vsc-extension-quickstart"
 	}
 }
