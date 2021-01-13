@@ -18,17 +18,26 @@ $ npm test
 
 That will also run the TypeScript compile and lint steps.
 
-Note that you must exit all instances of VS Code to run the tests, or you'll get this error:
+Note that you must **exit** all instances of VS Code to run the tests, or you'll get this error:
 
 ```
 [main 2021-01-13T15:54:07.713Z] Running extension tests from the command line is currently
 only supported if no other instance of Code is running.
 ```
 
-When VS Code was closed, I found this step runs and gets stuck with the instance open.
+Note - with VS Code was closed, I found this test step runs and gets stuck with the instance open. I don't know if that was always the case.
 
-You can also run tests with VS Code open using another approach. If you use the _Debug_ tab in VS Code, you can run _Extension Tests_, that will open up another VS Code window.
+You can also run tests with VS Code **open** using another approach below.
 
+### Run tests in Debug mode
+
+Open _Debug_ tab in VS Code.
+
+Click run for _Extension Tests_.
+
+That will open up another VS Code window with the extension added and it will run tests.
+
+It is useful to have VS Code run lighter without other extensions. While not part of the quickstart, see the `--disable-extensions` flag added in [launch.json](/.vscode/launch.json) arguments.
 
 ## Commands
 
