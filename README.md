@@ -25,9 +25,15 @@
 
 ## Documentation
 
-View the [docs](/docs/) to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop.
+View the project docs to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop.
 
-Be sure to use the _Use this template_ button at the top if you want to create a repo under your GitHub user start uses this repo as starting point.
+<div align="center">
+    
+[![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
+
+</div>
+
+Be sure to use the _Use this template_ button at the top if you want to create a repo under your GitHub user that uses this repo as starting point.
 
 See also the [welcome](/welcome.md) doc which came with the auto-generated quickstart.
 
