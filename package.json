@@ -1,15 +1,12 @@
 {
 	"name": "vsc-extension-quickstart",
 	"version": "0.3.0",
-	"displayName": "VS Code Extension Quickstart",
-	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
-	"publisher": "MichaelCurrin",
-	"main": "out/extension.js",
 	"scripts": {
 		"watch": "tsc -watch -p .",
 		"compile": "tsc -p .",
-		"lint": "eslint src --ext ts",
-		"pretest": "npm run compile && npm run lint",
+		"lint:check": "eslint . --ext .ts --max-warnings 10",
+		"lint:fix": "eslint . --ext .ts --fix",
+		"pretest": "npm run compile",
 		"test": "node out/test/runTest.js",
 		"vscode:prepublish": "npm run compile"
 	},
@@ -29,6 +26,10 @@
 		"typescript": "^3.8.3",
 		"vscode-test": "^1.4.1"
 	},
+	"displayName": "VS Code Extension Quickstart",
+	"description": "Boilerplate for a new VS Code extension using TypeScript and NPM",
+	"publisher": "MichaelCurrin",
+	"main": "out/extension.js",
 	"categories": [
 		"Other"
 	],
