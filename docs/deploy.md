@@ -1,11 +1,18 @@
 # Deploy
 
-You can _export_ your extension.
+
+## Export
+
+You can _export_ your extension as an archive file.
 
 Then it can be _installed_ globally for yourself and shared with others so they can install it too. That is more permanent than running in debug mode as covered in the [Development](development.md#start-the-extension) doc.
 
-You can also _publish_ the extension to the VS Code marketplace so it can be found easily.
 
-See the [Extensions][] guide in my Dev Cheatsheets repo - that covers how to export, install and publish a VSIX extension file.
+## Publish
 
-[Extensions]: https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/vscode-extensions/extension/
+You can also _publish_ the extension to the VS Code Marketplace so it can be found easily.
+
+See my guides for how to export, install and publish a VSIX extension file.
+
+- [Export and publish extension](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/vscode-extensions/extension/) in my Dev Resources. There are links to VS Code's instructions which are friendly for beginners publishing for the first time.
+- [VS Code extensions](https://michaelcurrin.github.io/dev-cheatsheets/cheatsheets/other/vscode-extensions/) in my Dev Cheatsheets
