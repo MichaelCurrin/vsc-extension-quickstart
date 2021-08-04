@@ -4,11 +4,18 @@
 Make sure you follow the [Installation](installation.md) guide first.
 
 
-## Run linter
+## Run lint checks
 
 ```sh
-$ npm run lint
+$ npm run lint:check
 ```
+
+## Fix linting issues
+
+```sh
+$ npm run lint:fix
+```
+
 
 ## Run tests
 
@@ -16,7 +23,7 @@ $ npm run lint
 $ npm test
 ```
 
-That will also run the TypeScript compile and lint steps.
+That will also run the TypeScript compile step.
 
 Note that you must **exit** all instances of VS Code to run the tests, or you'll get this error:
 
@@ -39,29 +46,13 @@ That will open up another VS Code window with the extension added and it will ru
 
 It is useful to have VS Code run lighter without other extensions. While not part of the quickstart, see the `--disable-extensions` flag added in [launch.json](/.vscode/launch.json) arguments.
 
+
 ## Commands
 
 See available script commands in [package.json](/package.json) by running this:
 
 ```sh
 $ npm run
-```
-```
-Lifecycle scripts included in vsc-extension-quickstart:
-  pretest
-    npm run compile && npm run lint
-  test
-    node ./out/test/runTest.js
-
-available via `npm run-script`:
-  vscode:prepublish
-    npm run compile
-  compile
-    tsc -p ./
-  lint
-    eslint src --ext ts
-  watch
-    tsc -watch -p ./
 ```
 
 
