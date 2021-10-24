@@ -15,7 +15,11 @@ $ cd ~/repos
 
 ## Generate the extension
 
-Run this command to use NPX, which comes with NPM and will fetch and run a package without installing it. In this case we use yeoman (`yo`) and the template we request is for VS Code.
+Install Node.
+
+Run this command to use NPX - it will fetch and run a package without installing it. 
+
+In this case we use Yeoman (`yo`) and the template we request is for VS Code.
 
 ```sh
 $ npx yo code
