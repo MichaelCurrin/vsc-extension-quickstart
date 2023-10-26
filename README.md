@@ -7,6 +7,8 @@
 [![VS Code Extension](https://img.shields.io/badge/VS_Code_Extension-blue.svg?logo=visual-studio-code)](https://code.visualstudio.com/)
 [![Made with TypeScript](https://img.shields.io/badge/TypeScript-3-blue.svg?logo=typescript&logoColor=white)](https://typescriptlang.org)
 
+**WARNING** _There are compilation errors that came up since last working on this in 2021 - please generated a new project using [Start fresh](/docs/start-fresh.md) instead._
+
 
 <div align="center">
 
@@ -28,7 +30,7 @@
 View the project docs to learn how to use this extension, how it works, how to install it globally in VS Code and how to develop.
 
 <div align="center">
-    
+
 [![View - Documentation](https://img.shields.io/badge/View-Documentation-blue?style=for-the-badge)](/docs/)
 
 </div>
