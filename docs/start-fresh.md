@@ -17,12 +17,13 @@ $ cd ~/repos
 
 Install Node.
 
-Run this command to use NPX - it will fetch and run a package without installing it. 
+Run this command to use NPX - it will fetch and run a package without installing it.
 
 In this case we use Yeoman (`yo`) and the template we request is for VS Code.
 
 ```sh
-$ npx yo code
+$ npm install -g yo generator-code
+$ yo code
 ```
 
 You'll then get promoted for input.
